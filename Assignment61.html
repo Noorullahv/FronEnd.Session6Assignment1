@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Assignment 6.1</title>
+
+		<script type="text/javascript">
+			
+			var arr = [-55,8,1,2,15,3,0,4,5,65];
+
+			var min = 0;
+			var max = 0;
+			for (temp in arr){
+				//alert(arr[temp]);
+
+				if(temp==0){
+					min=arr[temp];
+				}
+				else if(min>arr[temp]){
+					min=arr[temp];	
+				}
+
+				if(temp==0){
+					max=arr[temp];
+				}
+				else if(arr[temp]>max){
+					max=arr[temp];
+				}
+
+			}
+
+			alert("Minimum Value in the Array is :- "+min);
+			alert("Maximum Value in the Array is :- "+max);
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+
+</html>
